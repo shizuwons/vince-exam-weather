@@ -1,4 +1,112 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
 .skyblue-bg {
     background-color: skyblue;
-    height: 100vh;
+    height: 100%;
+}
+
+.content {
+    max-width: 500px;
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.btn-search {
+    background-color: lightseagreen;
+    height: 30px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.field {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.field:focus-visible {
+    outline: none;
+}
+
+.info-container {
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    background-color: #004275;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 3px 3px 2px 0px rgba(18, 16, 47, 0.23);
+}
+
+.display {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 0.5;
+}
+
+.infotext {
+    font-family: "Tahoma";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.degree {
+    font-family: "Tahoma";
+    font-weight: 700;
+    font-size: 40px;
+}
+
+span {
+    padding: 20px 20px;
+}
+
+.nearby {
+    padding: 30px;
+}
+
+.places {
+    padding: 10px;
+}
+
+.address {
+    margin-left: 10px;
+}
+
+.placename {
+    padding-left: 0 !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .degree {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        padding: 30px;
+    }
 }
