@@ -2,6 +2,10 @@
 
 This is a simple information application made from Laravel and Vue.js. It is used to fetch weather and place information about a city.
 
+## Why is the UI/UX implementation for this project the best?
+
+The UI/UX is simple and can be opened on different devices and it offers instant information about the specific weather and temperature for the day as well as the nearby places to it with their respective complete addresses.
+
 ## Installation
 1. Clone the repository to a local directory
 
